@@ -22,8 +22,13 @@ function changeAll() {
 
 function hideButton(id) {
     thisBox=document.getElementById (id);
-    thisBox.style.background = "none"
-    thisBox.style.border= "hidden" 
+    if(thisBox.style.display== "none"){
+        thisBox.style.display ="block"
+    }
+  else {
+      thisBox.style.display= "none";}
+    
+    
 }
 function hideAll(){
     hideButton('box1');
@@ -54,4 +59,21 @@ function hideAll(){
  }
 
  function showAll(){
+   function showBox1() {
+       thisBox=document.getElementById('box1');
+    thisBox.style.display= "block";}
+
+    function showBox2() {
+        thisBox=document.getElementById('box2');
+     thisBox.style.display= "block";}
+
+  function showBox3() {
+    thisBox=document.getElementById('box3');
+ thisBox.style.display= "block";}
+
+ showBox1();
+ showBox2();
+ showBox3();
+}
+ 
    
