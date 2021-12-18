@@ -1,11 +1,41 @@
-.box-1{   
-background-color: rgb(79, 79, 231);
-border-color:black;
+body {
+    text-align:center;
 
 }
-.box-2{
-    background-color: aquamarine;
+
+h2, h3, h4 {
+    text-decoration: underline;
 }
-.box-3{
-    background-color: yellow
+
+h3, h4 {
+    text-color: blue;
+}
+
+.firstBox {
+     width: 100px;
+     height: 50px;
+     background-color: red;
+     border: solid 5px black;
+}
+.secondBox {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border: dotted 5px yellow;
+    margin: 0 20px
+}
+.thirdBox {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: solid 5px black;
+}
+.boxesRow {
+    margin: 5px
+}
+.boxesRow, .changeButtonRow, .hideButtonsRow  {
+margin: 5px;
+}
+.resetButtonsRow {
+    margin: 20px 0 0 0;
 }
